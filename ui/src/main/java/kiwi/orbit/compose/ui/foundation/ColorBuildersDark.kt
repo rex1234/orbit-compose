@@ -27,8 +27,8 @@ public fun darkColors(
 )
 
 public fun darkSurfaceColors(
-    main: Color = ColorTokens.CloudLight.invert(),
-    background: Color = ColorTokens.White.invert(),
+    main: Color = Color(0xFF1F2A37),
+    background: Color = Color(0xFF111927),
     subtle: Color = ColorTokens.CloudNormal.invert(),
     strong: Color = ColorTokens.CloudDark.invert(),
     disabled: Color = ColorTokens.CloudDarker.invert(),
@@ -41,8 +41,8 @@ public fun darkSurfaceColors(
 )
 
 public fun darkContentColors(
-    normal: Color = ColorTokens.InkNormal.invert(),
-    minor: Color = ColorTokens.InkLight.invert(),
+    normal: Color = Color(0xFFFFFFFF),
+    minor: Color = Color(0xFFBAC7D5),
     subtle: Color = ColorTokens.InkLighter.invert(),
     highlight: Color = ColorTokens.ProductNormal,
     disabled: Color = ColorTokens.CloudDarkerHover.invert(),
@@ -55,7 +55,7 @@ public fun darkContentColors(
 )
 
 public fun darkPrimaryColors(
-    main: Color = ColorTokens.ProductDark,
+    main: Color = Color(0xFF00CBAE),
     mainAlt: Color = ColorTokens.ProductDarkHover,
     subtle: Color = ColorTokens.ProductLight.invert(),
     subtleAlt: Color = ColorTokens.ProductLightHover.invert(),
@@ -71,7 +71,7 @@ public fun darkPrimaryColors(
 )
 
 public fun darkInteractiveColors(
-    main: Color = ColorTokens.BlueDark,
+    main: Color = Color(0xFF2AA0FE),
     mainAlt: Color = ColorTokens.BlueDarkHover,
     subtle: Color = ColorTokens.BlueLight.invert(),
     subtleAlt: Color = ColorTokens.BlueLightHover.invert(),
@@ -87,7 +87,7 @@ public fun darkInteractiveColors(
 )
 
 public fun darkSuccessColors(
-    main: Color = ColorTokens.GreenDark,
+    main: Color = Color(0xFF3BCE4E),
     mainAlt: Color = ColorTokens.GreenDarkHover,
     subtle: Color = ColorTokens.GreenLight.invert(),
     subtleAlt: Color = ColorTokens.GreenLightHover.invert(),
@@ -103,7 +103,7 @@ public fun darkSuccessColors(
 )
 
 public fun darkWarningColors(
-    main: Color = ColorTokens.OrangeDark,
+    main: Color = Color(0xFFFBA132),
     mainAlt: Color = ColorTokens.OrangeDarkHover,
     subtle: Color = ColorTokens.OrangeLight.invert(),
     subtleAlt: Color = ColorTokens.OrangeLightHover.invert(),
@@ -119,7 +119,7 @@ public fun darkWarningColors(
 )
 
 public fun darkCriticalColors(
-    main: Color = ColorTokens.RedDark,
+    main: Color = Color(0xFFFF5050),
     mainAlt: Color = ColorTokens.RedDarkHover,
     subtle: Color = ColorTokens.RedLight.invert(),
     subtleAlt: Color = ColorTokens.RedLightHover.invert(),
